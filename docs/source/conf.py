@@ -31,7 +31,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 html_theme ='sphinx_rtd_theme'
 html_static_path = ['_static']
 extensions = [
-        'myst_parser',
+        #'myst_parser',
         'sphinx.ext.autodoc',
         'sphinx.ext.mathjax',
         'sphinx.ext.autosummary',
@@ -49,4 +49,4 @@ source_suffix = {
         '.txt': 'markdown',
         '.md': 'markdown',
         }
-
+autodoc_mock_imports = ['numpy','scipy']

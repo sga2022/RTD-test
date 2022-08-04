@@ -1,6 +1,6 @@
 """
 ====================================
-:py:mod:'simide' Module is SIMIDE
+:py:mod:`pyAPEP.simide` Module is SIMIDE
 ====================================
 .. moduleauthor::seby <sebyga@gmail.com>
 .. note:: NOTE can be shown like this.
